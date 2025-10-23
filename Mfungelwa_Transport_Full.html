@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mfungelwa Transport Pty Ltd</title>
+    <link rel="icon" href="images/Mfungelwa.jpg" type="image/jpeg">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <!-- HEADER -->
+        <header>
+            <div class="brand" aria-hidden="true">
+                <img src="images/Mfungelwa.jpg" alt="Mfungelwa Transport Logo" />
+                <h1 onclick="activateSection('home')">Mfungelwa Transport Pty Ltd</h1>
+            </div>
+
+            <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">☰</button>
+
+            <nav class="nav-links" aria-label="Main navigation" id="navLinks">
+                <a href="#home" onclick="activateSection('home');return false"><i class="fa fa-home"></i> Home</a>
+                <a href="#about" onclick="activateSection('about');return false"><i class="fa fa-info-circle"></i> About</a>
+                <a href="#contact" onclick="activateSection('contact');return false"><i class="fa fa-phone"></i> Contact</a>
+                <a href="#service" onclick="activateSection('service');return false"><i class="fa fa-truck"></i> Service</a>
+                <a href="#rate" onclick="activateSection('rate');return false"><i class="fa fa-star"></i> Rate Us</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- HOME -->
+            <section id="home" class="card" role="region" aria-labelledby="homeTitle">
+                <div class="home-intro">
+                    <h1 style="color: var(--accent); margin: 0 0 8px;">WELCOME TO MFUNGELWA LOGISTICS (PTY LTD)</h1>
+                    <h2 id="homeTitle">Reliable 5-Ton Closed Body Truck — Available for Hire</h2>
+
+
+                    
+                    <div id="HomeSlideshow" class="fold-slideshow">
+                        <img src="images/Mfungelwa.jpg" alt="Truck 1" class="fold-slide active" />
+                        <img src="images/Front1.jpg" alt="Truck 2" class="fold-slide" />
+                        <img src="images/Side.jpg" alt="Truck 3" class="fold-slide" />
+                        <img src="images/Back.jpg" alt="Truck 4" class="fold-slide" />
+                        <img src="images/InsideTruck.jpg" alt="Truck Inside" class="fold-slide" />
+                    </div>
+
+
+
+                    <p style="color:black;">We specialise in transporting palletised and loose cargo with scheduled and urgent deliveries. Our door-to-door service ensures your goods reach their destination safely and on time.</p>
+                    <p style="color:black;">We transport goods everywhere within South Africa. Goods-in-transit insurance is in place to ensure guaranteed delivery of our customers' goods.</p>
+                </div>
+
+                <div class="partners" aria-hidden>
+                    <div class="partner" title="Takealot">
+                        <a href="https://www.takealot.com" target="_blank" rel="noopener"><img src="images/Tke.png" alt="Takealot"></a>
+                    </div>
+                    <div class="partner" title="Retailers"><img src="https://cdn-icons-png.flaticon.com/512/711/711284.png" alt="Retailers"></div>
+                    <div class="partner" title="Ecommerce"><img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" alt="Ecommerce"></div>
+                </div>
+
+                <div class="book-row">
+                    <button id="bookNow" class="btn-primary">Book Now — Email Us</button>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section id="about" class="card" role="region" aria-labelledby="aboutTitle">
+                <h2 style="color: var(--accent);" id="aboutTitle">About Mfungelwa Transport</h2>
+                <p>Mfungelwa Transport Pty Ltd provides dedicated freight solutions with a 5-ton closed body truck. We handle palletised and loose cargo, scheduled and urgent deliveries, door-to-door service, and insured transit for peace of mind.</p>
+                <div id="AboutSlideshow" class="slideshow-3d">
+                    <img  src="images/truck.jpg" alt="Truck 1" class="slide active" />
+                    <img src="images/Front1.jpg" alt="Truck 2" class="slide" />
+                    <img src="images/IMG-20251017-WA0031.jpg" alt="Truck 3" class="slide" />
+                    <img src="images/InsideTruck.jpg" alt="Truck Inside" class="slide" />
+                </div>
+
+                <label>           We <strong>Provide</strong> the best service Nation-wide!!</label>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact" class="card" role="region" aria-labelledby="contactTitle">
+                <h2 style="color: var(--accent-2);" id="contactTitle">Contact us</h2>
+                <p style="text-align:center;max-width:900px;margin:0 auto 8px;">
+                    <i class="fa fa-envelope"></i> Email: <a href="mailto:Mfungelwalogistics@gmail.com">Mfungelwalogistics@gmail.com</a><br />
+                    <i class="fab fa-whatsapp"></i> Phone / WhatsApp: <a href="https://wa.me/27698032117" target="_blank" rel="noopener">+27 69 803 2117</a>
+                </p>
+
+                <div class="contact-row" role="group" aria-label="contact links">
+                    <a href="mailto:Mfungelwalogistics@gmail.com" title="Email"><i class="fa fa-envelope"></i> Email</a>
+                    <a href="https://wa.me/27698032117" target="_blank" rel="noopener" title="WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <div style="display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:10px;background:rgba(255,255,255,0.6)">
+                        <img src="https://flagcdn.com/w40/za.png" alt="South Africa" style="width:20px;height:14px;object-fit:cover;border-radius:3px" />
+                        <span style="color:var(--muted)">South Africa</span>
+                    </div>
+                </div>
+
+                <div style="margin:24px auto 0; max-width:600px; border-radius:12px; overflow:hidden; box-shadow:0 4px 18px rgba(30,35,90,0.08)">
+                    <iframe src="https://www.google.com/maps?q=Umthwalume,+KwaZulu-Natal,+South+Africa&output=embed"
+                            width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="Mfungelwa Transport Location - Umthwalume"></iframe>
+                </div>
+                <label>         We are <strong>Located</strong> at Umthwalume</label>
+            </section>
+
+            <!-- SERVICES -->
+            <section id="service" class="card" role="region" aria-labelledby="servicesTitle">
+                <h2 style="color: var(--accent-2);" id="servicesTitle">Our Services</h2>
+               
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="images/Onwer.jpg" alt="Truck Delivery" />
+                        <h3>General Freight</h3>
+                        <p>Palletised and loose cargo, scheduled and urgent deliveries nationwide.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="images/DEV.jpg" alt="Door to Door" />
+                        <h3>Door-to-Door Service</h3>
+                        <p>Direct delivery from sender to recipient for maximum convenience.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="images/R.jpg" alt="Goods Insurance" />
+                        <h3>Insured Transit</h3>
+                        <p>Goods-in-transit insurance for peace of mind and guaranteed delivery.</p>
+                    </div>
+                </div>
+
+
+                <!-- COMMENTS FORM -->
+                <div style="margin-top:18px; width:100%;">
+                    <div class="form-row" style="justify-content:center; align-items:center;">
+                        <h2 style="color: var(--accent); margin-right:8px;">Comment</h2>
+
+                        <input id="companyName_comment" type="text" placeholder="Company name (e.g. Takealot)" aria-label="Company name" />
+
+                        <label class="file-upload" id="fileUploadLabel_comment" title="Upload company logo (comment)">
+                            <i class="fa fa-camera"></i>
+                            <input id="companyLogo_comment" type="file" accept="image/png, image/jpeg" aria-label="Upload company logo (comment)" />
+                            <button id="removeLogo_comment" class="remove-logo" aria-hidden="true">×</button>
+                        </label>
+
+
+                        <input id="comment" type="text" placeholder="Comment(e.g. Appreciated service)" aria-label="Comment" />
+                        <button id="submitComment" class="btn-primary" style="background-color:lime">Comment</button>
+
+                    </div>
+
+                    <div id="CommentList"></div>
+                    <div id="toggleCommentsLink" class="more-link">See more comments...</div>
+                </div>
+            </section>
+
+            <!-- RATE -->
+            <section id="rate" class="card" role="region" aria-labelledby="rateTitle">
+                <div class="rate-card">
+                    <h2 style="color: var(--accent-2);" id="rateTitle">Rate Us</h2>
+                    <p style="max-width:820px;text-align:center;color:var(--muted)">Enter company name, upload a small logo (PNG/JPG) and then click the stars to rate. Ratings save locally and load automatically.</p>
+
+                    <div class="form-row">
+                        <input id="companyName_rate" type="text" placeholder="Company name (e.g. Takealot)" aria-label="Company name (rate)" />
+
+                        <label class="file-upload" id="fileUploadLabel_rate" title="Upload company logo (rating)">
+                            <i class="fa fa-camera"></i>
+                            <input id="companyLogo_rate" type="file" accept="image/png, image/jpeg" aria-label="Upload company logo (rating)" />
+                            <button id="removeLogo_rate" class="remove-logo" aria-hidden="true">×</button>
+                        </label>
+                    </div>
+
+                    <div class="rating-stars" id="starContainer" role="radiogroup" aria-label="Star rating"></div>
+
+                    <div class="submit-row">
+                        <button id="submitRating" class="btn-primary">Submit Rating</button>
+                    </div>
+
+                    <h3 style="margin-top:8px">Total Ratings: <span id="ratingCount">0</span></h3>
+
+                    <div id="ratingList" aria-live="polite"></div>
+                    <div id="moreRatingsLink" class="more-link">See more ratings...</div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            © <span id="year"></span> Mfungelwa Transport Pty Ltd — All Rights Reserved<br>
+            <span style="font-size:14px;">
+                Developed by Sigcino Mkhize — <a href="mailto:sigcinomkhize64@gmail.com" style="color:var(--accent-2);text-decoration:underline;">sigcinomkhize64@gmail.com</a>
+            </span>
+        </footer>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
